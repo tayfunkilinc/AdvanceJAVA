@@ -1,0 +1,15 @@
+-----------Generics-----------
+generics, parametrelendirilmiş data tipi anlamına gelir
+  **List gibi data tipinden bagimsiz tanimlanmistir kullanirken hangi veri tipi ile calisacagimiza
+karar veriyoruz. kararimizi verdikten sonra data tipi belli olmus oluyor ve farkli data tipleriyle
+calisamayiz sadece belirlenen data tipiyle kullanima devam ederiz
+**generics olustururken Buyuk Harf Ile parametlerler Isimlendirilir. Asagida Bazi Isimlendirmeler Verilmitir
+E---Eleman(Elements)
+K---Anahtar(Key)
+V---Deger(Value)
+N---Sayi(Number)
+T---Tip(Type)
+S,U,V----ekstra baska data tipi kullanilacaksa
+===Generics tur guvenligini kesin olarak saglar ClassCastExeption gibi RunTimeError almanin onune geceris
+Generics sembolu <> olarak kullanilir
+
