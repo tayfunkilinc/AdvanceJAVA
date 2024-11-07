@@ -6,7 +6,7 @@ import javax.imageio.plugins.tiff.TIFFImageReadParam;
 import java.util.TreeMap;
 
 public class ThreadCreationWays {
-
+    //defaut thread ismi main threads dir (main ile karsitirma !!!)
     public static void main(String[] args) {
         //her java programinda bir tane thread baslatilir ve ismi main thread dir.
         System.out.println("Mevcut Thread: " + Thread.currentThread().getName()); //Mevcut Thread: main
@@ -17,7 +17,7 @@ public class ThreadCreationWays {
         //1.YOL
         Thread thread1 = new MyThread();
         thread1.start(); //---> burda bizim thread calisiyor // threadi baslatir ve run methodunu cagirir.
-        //thread1.run(); //---> burda main thread calisiyor, kendi thread olusturmamiz gereksiz oldu
+        //thread1.run(); //---> burda main thread calisiyor, kendi thread olusturmamiz gereksiz oldu - single Thread olarak devam edilmis olur
         // bundan sonra artik uygulamamda iki tane thread calisiyor
         thread1.setName("thread1 threadcik:)"); // thread ismini bu sekilde kendimiz isimlendorebiliyoruz
 
@@ -89,5 +89,5 @@ public class ThreadCreationWays {
         System.out.println("enson clisacak beklmeden dolayi .. en son calismasi garanti degil");
 
     }
-    //defaut thread ismi main threads dir (main ile karsitirma !!!)
+
 }
