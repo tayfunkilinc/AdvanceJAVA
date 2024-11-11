@@ -1,4 +1,4 @@
-package multithreading;
+package threads.multithreading;
 
 public class SynchronizedBlock {
     public static void main(String[] args) {

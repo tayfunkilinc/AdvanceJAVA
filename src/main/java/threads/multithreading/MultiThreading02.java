@@ -1,4 +1,4 @@
-package multithreading;
+package threads.multithreading;
 //
 public class MultiThreading02 {
     public static int sayac = 0;
